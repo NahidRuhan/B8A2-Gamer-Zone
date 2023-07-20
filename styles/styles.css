@@ -208,3 +208,23 @@ font-weight: 700;
     width: 353px;
     margin-top: 50px;
 }
+
+/* section 4 styles */
+
+.section4-catagory{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 20px;
+}
+.section4-container{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.section4-container p{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
