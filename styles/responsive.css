@@ -7,6 +7,20 @@
         display: flex;
         flex-direction: column;
     }
+    .primary-btn{
+        display: inline-flex;
+        padding: 11px 30px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 48px;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        color: #FFF;
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .rogue{
+        background: #4EC5F7;
+    }
 }
 
 @media screen and (max-width:425px){
@@ -21,5 +35,24 @@
     .section1{
         display: flex;
         flex-direction: column;
+    }
+
+    .menu{
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .social ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .legal ul{
+        display: flex;
+        flex-direction: row;
     }
 }

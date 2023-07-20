@@ -45,6 +45,7 @@ body{
 .logo img{
     width: 50px;
     height: 50px;
+    margin-right: 5px;
 }
 
 .nav-properties{
@@ -115,4 +116,43 @@ background: #4EC5F7;
 .section1-img{
     height: 80%;
     width: 80%;
+}
+
+/* footer related style */
+
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: #0B0223;
+}
+.menu{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.social{
+    color: #FFF;
+}
+.legal{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+.foot{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-h2{
+color: #FFFFFF;
+font-size: 45px;
+font-weight: 700;
 }
