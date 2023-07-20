@@ -37,10 +37,16 @@
         flex-direction: column;
     }
 
+
+
+
     .menu{
-        color: #FFF;
-        font-size: 12px;
-        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+    }
+    .legal{
+        display: flex;
+        flex-direction: column;
     }
 
     .menu ul{
@@ -54,5 +60,14 @@
     .legal ul{
         display: flex;
         flex-direction: row;
+    }
+
+
+    .section3{
+        display: flex;
+        flex-direction: column;
+    }
+    .section3-picture{
+        margin-left: 100px;
     }
 }

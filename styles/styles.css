@@ -137,6 +137,7 @@ footer ul{
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
+    display: flex;
 }
 .social{
     color: #FFF;
@@ -145,6 +146,7 @@ footer ul{
     color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
     font-weight: 500;
+    display: flex;
 }
 .foot{
     color: rgba(255, 255, 255, 0.60);
@@ -155,4 +157,54 @@ footer ul{
 color: #FFFFFF;
 font-size: 45px;
 font-weight: 700;
+}
+
+/* section 3 styles */
+
+.section3{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 50px;
+}
+.cowboy{
+    width: 350px;
+    height: 380px;
+}
+.angela{
+    width: 150px;
+    height: 180px;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+}
+.section3-picture{
+    width: 40%;
+}
+.section3-text{
+    margin-left: 50px;
+}
+.section3-text-different-h3{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.section3-text h3{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: -30px;
+
+}
+.section3-text p{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 353px;
+    margin-top: 50px;
 }
