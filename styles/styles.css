@@ -1,0 +1,118 @@
+/* common styles */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-btn{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* navigation related styles */
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 140px 0 140px;
+}
+.navbar-span{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.logo h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-properties{
+    display: flex;
+}
+
+.nav-properties ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-btn{
+    margin-left: 20px;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* section 1 styles */
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section1-text{
+    margin-left: 50px;
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.section1-text-h1{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+}
+.goat{
+font-size: 95px;
+font-weight: 800;
+
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);color: transparent;
+-webkit-background-clip: text;
+font-size: 50px;
+}
+.section1-text p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+.rogue{
+background: #4EC5F7;
+}
+
+.section1-img{
+    height: 80%;
+    width: 80%;
+}
